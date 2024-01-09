@@ -46,7 +46,7 @@ export default function ReviewCard(props) {
   };
   console.log(props);
   return (
-    <Card  sx={{ maxWidth: 400 }}  style={{background: "grey", margin: "2rem"}} >
+    <Card  sx={{ maxWidth: 400 }}  style={{background: "grey", margin: "2rem auto"}} >
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: orange[500] }} aria-label="recipe">
